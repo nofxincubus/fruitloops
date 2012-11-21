@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">PingPong</string>
+    <string name="settings_title">Settings</string>
+    <string name="title_activity_main">Ping Pong</string>
+	<string name="game_point_summary">The number of points needed to win</string>
+    <string name="game_point_title">Game Point</string>
+</resources>

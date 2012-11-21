@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:weightSum="3">
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight=".5">
+	    <TextView
+	       	android:id="@+id/matchInfo"
+	        android:layout_width="match_parent"
+	        android:layout_gravity="center"
+	        android:gravity="center"
+	        android:layout_height="wrap_content"
+	        android:text="15 point game"
+	        android:singleLine="true"
+	        android:marqueeRepeatLimit="marquee_forever"
+	        android:textSize="20dp">
+	        
+	    </TextView>
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1.25"
+	    android:weightSum="2">
+	    <TextView
+	        android:id="@+id/score1"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_gravity="center"
+	        android:gravity="center"
+	        android:layout_height="wrap_content"
+	        android:text="0"
+	        android:textSize="50dp"/>
+	
+	    <TextView
+	        android:id="@+id/score2"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	       	android:layout_gravity="center"
+	        android:gravity="center"
+	        android:layout_height="wrap_content"
+	        android:text="0"
+	        android:textSize="50dp"/>
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight=".5"
+	    android:weightSum="2">
+	    <Button
+	        android:id="@+id/button1"
+	 		android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="match_parent"
+	        android:text="Player 1 Score" />
+	
+	    <Button
+	        android:id="@+id/button2"
+	 		android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="match_parent"
+	        android:text="Player 2 Score" />
+	</LinearLayout>
+		<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight=".5"/>
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight=".25"
+	    android:weightSum="3">
+	    <Button
+	        android:id="@+id/buttonReset"
+	 		android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="match_parent"
+	        android:text="New Game" />
+	
+	    <Button
+	        android:id="@+id/buttonChooseGamePoint"
+	 		android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="match_parent"
+	        android:text="Game Point" />
+	    
+	    <Button
+	        android:id="@+id/undoButton"
+	 		android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="match_parent"
+	        android:text="Undo" />
+	</LinearLayout>
+</LinearLayout>
