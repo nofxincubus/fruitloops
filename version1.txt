@@ -1,0 +1,37 @@
+Project Fruitloops Version 1. 						11/20/12
+
+Developers
+•	Anand Yog
+•	Brian Chisholm
+•	Calvin Park
+•	David Wang
+•	Marc Injerd
+
+Features:
+•	Score Keeping
+o	21 point game
+o	15 point game
+o	11 point game
+o	Custom point game
+•	Serve Tracking
+o	5 points
+o	2 points
+•	Undo button
+•	Link to rules
+•	Player Avatars
+o	Optional items to outfit your avatar (possibly sponsored by manufacturers)
+o	(This may be pushed to v2)
+•	Database
+o	Keep player statistics
+?	Tournament 
+?	Regular play
+?	League play (possibly)
+•	Tournament Mode
+o	Auto populate game screen with matches from tournament screen on long click
+o	Keep tournament statistics (see database)
+•	Media player
+o	TTS for dynamic elements (player names, team names)
+o	Pre-recorded files for static elements (deuce, point, wins, etc)
+
+
+
